@@ -1,0 +1,130 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Mistura's Portfolio</title>
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap" rel="stylesheet">
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="assets/css/style-starter.css">
+
+</head>
+
+<body>
+    <!-- inner page header -->
+    <div class="inner-banner">
+        <div class="w3l-header inner-w3l-header" id="home">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-dark pl-0 pr-0">
+                    <a class="navbar-brand m-0 text-primary" href="index.html"><span class=></span>
+                        Muibideen Mistura Adebimpe
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item mr-lg-4">
+                                <a class="nav-link pl-0 pr-0 font-weight-bold" href="index.html">About</a>
+                            </li>
+                            
+                            <li class="nav-item active">
+                                <a class="nav-link pl-0 pr-0 font-weight-bold" href="contact.html">
+								<span class="sr-only">(current)</span>Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- //inner page header -->
+<br/><br/>
+
+<div class="col-lg-4 content-photo mt-lg-0 mt-sm-5 mb-md-0 mb-4">
+                    <a href="#img"><img src="assets/images/team2.jpg" class="img-fluid" alt="content-photo"></a>
+</div>
+
+<div class="col-lg-8 content-left">
+                    
+    <p class="mb-0"> Kolade Habeeb</p>
+     <p class="mb-0">Muibideen Mistura</p>
+      <p class="mb-0">Amusan Olajire</p>
+       
+</div>
+    
+ 
+   
+<!-- Footer -->
+<section class="w3l-footers-1">
+	<div class="footer bg-secondary">
+		<div class="container">
+			<div class="footer-content">
+				<div class="row">
+					<div class="col-lg-8 footer-left">
+						<p class="m-0">© Copyright 2020 Muibideen Mistura. </p>
+					</div>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+	
+</section>
+<!-- //Footer -->
+
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" class="bg-primary" title="Go to top">
+        <span class="fa fa-angle-up"></span>
+    </button>
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+            } else {
+                document.getElementById("movetop").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- /move top -->
+
+    <!-- common jquery -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <!-- //common jquery -->
+
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+        $(function () {
+            $('.navbar-toggler').click(function () {
+                $('body').toggleClass('noscroll');
+            })
+        });
+    </script>
+    <!-- disable body scroll which navbar is in active -->
+
+    <!--  bootstrap js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!--  //bootstrap js -->
+
+</body>
+
+</html>
