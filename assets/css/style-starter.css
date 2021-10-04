@@ -461,6 +461,15 @@ h6,
   font-size: 1rem;
 }
 
+
+.sm_icon {
+ 
+    
+    width: 50px;
+    
+  /* the height is adjusted automatically*/
+}
+
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
@@ -573,6 +582,11 @@ mark,
 
 .img-fluid {
   max-width: 100%;
+  height: auto;
+}
+
+.img-fluid2 {
+  max-width: 50px;
   height: auto;
 }
 
