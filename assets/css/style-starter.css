@@ -585,9 +585,16 @@ mark,
   height: auto;
 }
 
-.img-fluid2 {
-  max-width: 50px;
+.img-fluid3 {
+  max-width: 100%;
   height: auto;
+  border-radius: 50%;
+}
+
+.img-fluid2 {
+  max-width: 50Px;
+  height: auto;
+  border-radius: 50%;
 }
 
 .img-thumbnail {
@@ -9567,7 +9574,7 @@ button.bg-dark:focus {
   }
 
   .pt-md-3,
-  .py-md-3 {
+  .content-main {
     padding-top: 1rem !important;
   }
 
